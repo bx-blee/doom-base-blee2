@@ -42,15 +42,15 @@ they will be determined globally later."
 (defun blee:bootstrap:file-name-obtain ()
   "Also add an environment variable -- export blee-bootstrap=fileName"
     (let (
-	  (blee-3-bootstrap "/bisos/blee/dblee-env/main/emacs-blee.el")
+	  (blee-3-bootstrap "/bisos/blee/env2/main/emacs-blee.el")
 	  (blee-2-bootstrap "~/lisp/bystar-emacs.el")
 	  )
 
       (when (>= emacs-major-version 26)
-	(setq blee-3-bootstrap "/bisos/blee/dblee-env/boot/boot-blee.el"))
+	(setq blee-3-bootstrap "/bisos/blee/env2/boot/boot-blee.el"))
 
       (when (>= emacs-major-version 27)
-	(setq blee-3-bootstrap "/bisos/blee/dblee-env/boot/boot-blee.el"))
+	(setq blee-3-bootstrap "/bisos/blee/env2/boot/boot-blee.el"))
       
       (cond
        ((file-exists-p blee-3-bootstrap)
