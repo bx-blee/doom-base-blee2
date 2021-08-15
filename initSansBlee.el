@@ -195,5 +195,3 @@
 (setq display-line-numbers-type nil)
 
 
-
-(load-file "/bisos/blee/doom-blee-base/blee-init.el")
