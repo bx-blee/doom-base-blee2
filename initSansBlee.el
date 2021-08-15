@@ -194,4 +194,7 @@
 
 (setq display-line-numbers-type nil)
 
-
+;;; Un-doom
+(setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
+(setq gnutls-verify-error nil)
+(setq gnutls-algorithm-priority nil)

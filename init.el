@@ -194,6 +194,8 @@
 
 (setq display-line-numbers-type nil)
 
-
+(setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
+(setq gnutls-verify-error nil)
+(setq gnutls-algorithm-priority nil)
 
 (load-file "/bisos/blee/doom-blee-base/blee-init.el")
