@@ -152,7 +152,7 @@
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
-       python            ; beautiful is better than ugly
+       (python +lsp +lsp-pyright)            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;raku              ; the artist formerly known as perl6
@@ -194,6 +194,7 @@
 
 (setq display-line-numbers-type nil)
 
+;;; Un-doom
 (setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
 (setq gnutls-verify-error nil)
 (setq gnutls-algorithm-priority nil)
