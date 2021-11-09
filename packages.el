@@ -84,6 +84,8 @@
 (package! slime)
 (package! elpy)
 
+(package! keycast)
+(package! gif-screencast)
 
 (package! gitconfig-mode
 	  :recipe (:host github :repo "magit/git-modes"
