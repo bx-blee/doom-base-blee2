@@ -84,8 +84,19 @@
 (package! slime)
 (package! elpy)
 
+;;; Elisp Libraries
+(package! loop)
+(package! guess-language)
+
+;;; Mail Sending -- Mail Composition
+(package! org-msg)
+
 (package! keycast)
 (package! gif-screencast)
+
+(package! polymode)
+(package! poly-org)
+(package! jekyll-modes)
 
 (package! gitconfig-mode
 	  :recipe (:host github :repo "magit/git-modes"
