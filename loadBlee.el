@@ -1,2 +1,2 @@
 
-(load-file "/bisos/blee/doom-blee-base/blee-init.el")
+(load-file (concat (file-name-directory load-file-name) "blee-init.el"))
